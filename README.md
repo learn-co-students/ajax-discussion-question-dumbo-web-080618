@@ -10,7 +10,7 @@ console.log("Hello")
 fetch('https://randomuser.me/api/')
   .then( res => res.json() )
   .then( data => {
-    console.log("Hi") 
+    console.log("Hi")
   })
 
 console.log("Sup?")
@@ -25,7 +25,7 @@ function fetchData(){
         var data = fetch('https://randomuser.me/api/')
           .then( res => res.json() )
           .then( res => res )
-        console.log(data)	
+        console.log(data)
 }
 
 fetchData()
@@ -59,9 +59,11 @@ fetchData()
 
 In your own words: what does asynchronous mean?
 
+
 ## Fourth Question
 
 Write out the request and response cycle. What is its purpose? How does it work?
+
 
 ## Fifth Question
 
